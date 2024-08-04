@@ -1,0 +1,153 @@
+br{
+	clear: both;
+}
+
+body{
+	/*background: url(bg2blurr.jpg);*/
+	background: url(TdivBg.jpg);
+	height: 100%
+	}
+
+
+h1{
+	color: white;
+	font-size: 45px;
+}
+	.Master	{
+		margin: 5px;
+		height: 1200px;
+		align-items: strech;
+	}
+	.MasterTitle	{
+	/*	background: url(TdivBg.jpg);
+		background-position:left top;
+		opacity: 0.90;
+		margin: 5px; 					*/
+		height: 200px;
+		background-size: cover;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-content: center;
+	}
+
+	}	
+/* MasterReel	{
+		background-color: Gray;
+		margin: 5px;
+		height: 300px;
+	}									*/
+	.MasterContent	{
+		background-color: Gray;
+		height: 100%;
+	}
+/*	.HeaderBanner	{
+		background-color: Blue;
+		margin: 0;
+		height: 50px;
+		display: block;
+	}
+										*/
+	
+	.NavBar	{
+		margin: 5px;
+		height: 300px;
+		width:300px;
+		vertical-align: top;
+		float: left;
+	}
+	
+									/* Start of Nav Bar table links*/
+									
+									
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			background-color: black;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			padding: 8px 16px;
+			text-decoration: none;
+		}
+
+	/* Change the link color on hover */
+		li a:hover {
+			background-color: #555;
+			color: white;
+		}
+		
+		
+		
+									/* End of Nav Bar table links*/
+		
+
+	.MainContent	{
+		margin: 5px;
+		height: 100%;
+		display: block;
+		
+	}
+	.TextContent	{
+		background-color: black;
+		width: 55%;
+		float: left;
+		display: block;
+		vertical-align: top;
+		height: 100%;
+		overflow: hidden;
+		
+	}
+	.ContentTitle	{
+		background-color: gray;
+		margin: 5px;
+		height: auto;
+		
+	}
+	.ContentBody	{
+		background-color: gray;
+		padding: 15px;
+		margin: 5px;
+		height: auto;
+	}
+	.ImageContent	{
+		background-color: black;
+		margin: 5px;
+		height: 100%;
+		display: block;
+		float:none;
+		overflow: hidden;
+	}
+	.Image	{
+		
+		background: url(imgTest.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		margin: 5px;
+		width: 100%;
+		height: 300px;
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+		
+	}
+	.ImageCaption	{
+		background-color: gray;
+		margin: 5px;
+	}
+	
+	.Footer	{
+		text-align: center;
+		color: white;
+		background: url(TdivBg.jpg);
+		margin: 5px;
+		height: 150px;
+		vertical-align: bottom;
+		background-position:left top;
+		opacity: 0.90;
+	}
