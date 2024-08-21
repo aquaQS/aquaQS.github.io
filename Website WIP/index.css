@@ -1,12 +1,11 @@
-/*.abs{
-	position: absolute;
-	bottom: 0px;
-	
-} */
+
+body { 
+	margin:0;
+} 
 .test{
 	display: flex;
 	max-width:100%;
-	background-color:blue;
+    background-color: rgba(0,0,0,1) 0%;
 	flex-direction: column;
 }
 .header{
@@ -14,7 +13,6 @@
 	background-image: url("Mumei.png");
 	max-width:100%;
 	height:800px;
-	border-style: solid;
 	text-align: center;
 	
 
@@ -38,6 +36,8 @@
 	
 }
 
+
+
 .flex-container {
   background-color: rgba(0,0,0,1) 0%;
   align-items: center;
@@ -47,7 +47,7 @@
 
 }
 .flex-div {
-	background-color: #f1f1f1;
+	background-color: rgba(0,0,0,1) 0%;;
     position: relative;
 	padding: 5px 10% 5px 10%;
 	font-size: 30px;
@@ -74,6 +74,11 @@
 	background-color: powderblue;
 	display: center;
 }
+
+
+
+
+
 
 
 
@@ -190,55 +195,8 @@ img {vertical-align: middle;}
 
 
 
-/*
-ul {
-	margin:0px;
-	position:relative;
-	bottom:0px;
-	list-style-type: none;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
-	max-width: 100%;
-	display: flex;
-}
-
-li {
-	float: center;
-	border-right:2px solid pink;
-	width:auto;
-
-}
-li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 10px;
-	text-decoration: none;
-}
-
-*/
 
 
-
-
-body { 
-	margin:0;
-} 
-.Logo{
-	width:auto;
-	height:150px;
-	display:block;
-}
-
-
-
-
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-	background-color: #111;
-}
 
 
 
