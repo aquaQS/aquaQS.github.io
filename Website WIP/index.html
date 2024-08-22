@@ -16,7 +16,7 @@
 	<div class="header">				<!--START DIV1-->
 		
 		<div class="socials"> 							<!-- for social icons-->
-			<p> Insert Github link on left and socials on the right </p>
+			<p class="socials-git"> Github: AquaQS </p>
 		</div>
 	</div>								<!-- END DIV1 -->
 	
@@ -30,16 +30,16 @@
 	
 	
 											
-	<div class="test">					<!-- START NAV BAR -->
+	<div class="master-navbar">					<!-- START NAV BAR -->
 		<div class="flex-container">
 			<a class="flex-div" href="copy.html">
-				<div>1</div> 		<!-- turn these divs into links for nav bar is possible-->
+				<div>Home</div> 		<!-- turn these divs into links for nav bar is possible-->
 			</a>
 			<a class="flex-div" href="copy.html">
-				<div>2</div> 		<!-- turn these divs into links for nav bar is possible-->
+				<div>Blog</div> 		<!-- turn these divs into links for nav bar is possible-->
 			</a>
 			<a class="flex-div" href="copy.html">
-				<div>3</div> 		<!-- turn these divs into links for nav bar is possible-->
+				<div>About Me</div> 		<!-- turn these divs into links for nav bar is possible-->
 			</a>
 		</div>
 	</div>								<!-- END NAV BAR -->
@@ -52,70 +52,57 @@
 
 	<!--START DIV2-->
 		
-		<div class="root">
-		<div class="blogsect">
-			<div class="slideshow-container">
-
-				<div class="mySlides fade">
-				  <div class="numbertext">1 / 3</div>
-				  <img src="img_nature_wide.jpg" style="width:100%">
-				  <div class="text">Caption Text</div>
-				</div>
-
-				<div class="mySlides fade">
-				  <div class="numbertext">2 / 3</div>
-				  <img src="img_snow_wide.jpg" style="width:100%">
-				  <div class="text">Caption Two</div>
-				</div>
-
-				<div class="mySlides fade">
-				  <div class="numbertext">3 / 3</div>
-				  <img src="img_mountains_wide.jpg" style="width:100%">
-				  <div class="text">Caption Three</div>
-				</div>
-
-				<a class="prev" onclick="plusSlides(-1)">❮</a>
-				<a class="next" onclick="plusSlides(1)">❯</a>
-
-			</div>
-				<br>
-
-				<div style="text-align:center">
-				  <span class="dot" onclick="currentSlide(1)"></span> 
-				  <span class="dot" onclick="currentSlide(2)"></span> 
-				  <span class="dot" onclick="currentSlide(3)"></span> 
-				</div>
-
-				<script>
-					let slideIndex = 1;
-					showSlides(slideIndex);
-
-					function plusSlides(n) {
-					  showSlides(slideIndex += n);
-					}
-
-					function currentSlide(n) {
-					  showSlides(slideIndex = n);
-					}
-
-					function showSlides(n) {
-					  let i;
-					  let slides = document.getElementsByClassName("mySlides");
-					  let dots = document.getElementsByClassName("dot");
-					  if (n > slides.length) {slideIndex = 1}    
-					  if (n < 1) {slideIndex = slides.length}
-					  for (i = 0; i < slides.length; i++) {
-						slides[i].style.display = "none";  
-					  }
-					  for (i = 0; i < dots.length; i++) {
-						dots[i].className = dots[i].className.replace(" active", "");
-					  }
-					  slides[slideIndex-1].style.display = "block";  
-					  dots[slideIndex-1].className += " active";
-					}
-				</script>
-		</div>
+		<div class="root">						<!-- this is mainly used for the background of the rest of the website, please do not change -->
+		
+		<div class="content">
+			<article class="blog-list">
+			<h1>Top Blogs</h1>
+			
+			
+			
+				<article class="blog">
+					<img src="kobo.png">
+												<!-- thurn this into a link to the blog post -->
+					
+					<p>sample paragrpah that will be inserted to sum up the post</p>
+					<h2>text </h2>
+				</article>
+				
+				
+				
+				
+				<article class="blog">
+					<img src="kobo.png">
+												<!-- thurn this into a link to the blog post -->
+					
+					<p>sample paragrpah that will be inserted to sum up the post</p>
+					<h2>text </h2>
+				</article>
+				
+				<article class="blog">
+					<img src="kobo.png">
+												<!-- thurn this into a link to the blog post -->
+					
+					<p>sample paragrpah that will be inserted to sum up the post</p>
+					<h2>text </h2>
+				</article>
+			
+			</article>
+		
+		<!-- copy from blog layout -->
+		
+		
+		
+		
+		
+		
+		</div>  <!-- close div for content -->
 	<!--END DIV2-->
+		
+		
+		
+		
+
 	
 	
 	
