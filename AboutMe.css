@@ -33,7 +33,8 @@ body {
 	padding-top: 12px;
 	padding-left: 6px;
 	text-align: left;
-}																	/* Start of the NAV bar */
+}
+/* Start NAV bar */
 .master-navbar{
 	display: flex;
 	max-width:100%;
@@ -42,6 +43,7 @@ body {
 }
 
 .flex-container {
+
   align-items: center;
   justify-content: center;
 
@@ -49,54 +51,54 @@ body {
 
 }
 .flex-div {
+
     position: relative;
 	padding: 5px 10% 5px 10%;
 	font-size: 30px;
 
 }
+/* Start Website Body */
+
+.headerLine{
+	border-color:rgba(0,0,0,0);
+}
+
 .content{
 	    align-items: center;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     top: 0px;
-    max-width: 70%;
-}
-
-.achievements-list{
-	margin: 0;
-	padding: 5px;
-}
-
-.achievements-list > h1, .achievements {
-	margin: 10px;
-	padding: 5px;
-	font-size: 48px;
-  
-}
-.achievements{
-	background: black;
-}
-
-.achievements > h2{
-  margin: 4px;
-  font-size: 70%;
-  border-top: 2px solid grey;
+    background-color: black;		/*visual only, delete later*/
+	max-width: 70%;
+	display:block;
 	
 }
-.achievements > p {
-  margin: 4px;
-  font-size: 50%;
-  display:inline-block;
-  vertical-align: top;
-  
-}
-.achievements > img {		/* this size is just 1920x1080 divided by 5 */
-	height: 216px;
-	width: 384px;
-}
+.imgHolder{
+	max-height:400px;
+	max-width:400px;
+	float:left;
+	padding: 20px;
 
+}
+.bioContent{
+	padding: 20px;
+}
+h1{
+	
+	font-size:36px;
+}
+p{
 
+	font-size:18px;
+}
+.interestContent{
+	padding: 20px;
+	display: block;
+}
+.tldrContent{
+	padding: 20px;
+}
 
 
 
