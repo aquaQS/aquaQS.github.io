@@ -2,12 +2,12 @@
 .root{															
 	min-height: 100%;
 	padding-bottom: 20px;
-	background-color: lightgray;
-	display: center;
-}
-																	/* Start of DIV1 */
+	background-color:#333536;
+	display: absolute;
+}																	/* Start of DIV1 */
 body { 
 	margin:0;
+	color:white;
 } 
 
 .header{
@@ -34,16 +34,15 @@ body {
 	padding-left: 6px;
 	text-align: left;
 }
-																	/* Start of the NAV bar */
+
 .master-navbar{
 	display: flex;
 	max-width:100%;
-    background-color: rgba(0,0,0,1) 0%;
+    background: #141414;
 	flex-direction: column;
 }
 
 .flex-container {
-  background-color: rgba(0,0,0,1) 0%;
   align-items: center;
   justify-content: center;
 
@@ -51,12 +50,17 @@ body {
 
 }
 .flex-div {
-	background-color: rgba(0,0,0,1) 0%;
     position: relative;
 	padding: 5px 10% 5px 10%;
 	font-size: 30px;
 
 }
+
+.headerLine{
+	border-color:rgba(0,0,0,0);
+}
+
+
 .content{
 	    align-items: center;
     justify-content: center;
@@ -65,6 +69,7 @@ body {
     top: 0px;
     background-color: black;
     max-width: 70%;
+	display:block;
 }
 
 

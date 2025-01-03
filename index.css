@@ -2,11 +2,12 @@
 .root{															
 	min-height: 100%;
 	padding-bottom: 20px;
-	background-color: lightgray;
-	display: center;
-}																/* Start of DIV1 */
+	background-color:#333536;
+	display: absolute;
+}																	/* Start of DIV1 */
 body { 
 	margin:0;
+	color:white;
 } 
 
 .header{
@@ -36,12 +37,11 @@ body {
 .master-navbar{
 	display: flex;
 	max-width:100%;
-    background-color: rgba(0,0,0,1) 0%;
+    background: #141414;
 	flex-direction: column;
 }
 
 .flex-container {
-  background-color: rgba(0,0,0,1) 0%;
   align-items: center;
   justify-content: center;
 
@@ -49,7 +49,6 @@ body {
 
 }
 .flex-div {
-	background-color: rgba(0,0,0,1) 0%;
     position: relative;
 	padding: 5px 10% 5px 10%;
 	font-size: 30px;
@@ -61,14 +60,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     top: 0px;
-    background-color: green;
     max-width: 70%;
 }
 
 .achievements-list{
 	margin: 0;
 	padding: 5px;
-	background-color: lightgray;
 }
 
 .achievements-list > h1, .achievements {
