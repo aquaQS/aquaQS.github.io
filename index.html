@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aqua — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">AQ<span>Solaris</span></a>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <span class="greeting">Hello, I'm</span>
+      <h1>AquaQS</h1>
+      <p class="subtitle">Systems & Infrastructure Enthusiast / Developer</p>
+      <p class="intro-text">
+		Hi, I’m AquaQS. I'm a systems tinkerer, a technical leader, and an amateur woodworker. 
+		I spend my time doing everything from managing multi-node Proxmox clusters and local DNS routing, to writing Python hardware scripts and tracking down the best rough-sawn hardwood in my community. 
+		I’m always chasing the next interesting project—whether it's silicon or sawdust.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <p>
+          I'm a self-driven tech enthusiast with a background in system administration, containerized self-hosting, 
+          and custom hardware projects. I enjoy managing dedicated homelab hardware, optimizing local DNS routing, 
+          and crafting clean web dashboards to monitor system metrics. 
+		  While still an enthusiast, overseeing a network for 3 people where I am the lifeline for their network connections, 
+		  mistakes leading to extended down time is not an option. 
+        </p>
+        <p>
+          When I'm not in the terminal or updating technical documentation, I spend time working on custom 
+          woodworking projects and physical builds.
+        </p>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="project-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Homelab Infrastructure & Dashboard</h3>
+            <span class="project-tag">Self-Hosted</span>
+          </div>
+          <p>
+            A multi-node hypervisor environment running containerized services behind an encrypted local reverse proxy, featuring continuous service metric dashboards and centralized DNS management.
+          </p>
+          <ul class="tech-list">
+            <li>Docker</li>
+            <li>Nginx Proxy Manager</li>
+            <li>Technitium DNS</li>
+            <li>Proxmox VE</li>
+          </ul>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Custom SBC Hardware Dashboard</h3>
+            <span class="project-tag">Hardware / Linux</span>
+          </div>
+          <p>
+            A lightweight, repurposed hardware system running minimal Linux and custom Python scripts to query remote APIs and display real-time statistics on a dedicated screen.
+          </p>
+          <ul class="tech-list">
+            <li>Python</li>
+            <li>REST API</li>
+            <li>Hardware Mods</li>
+          </ul>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+          <div class="project-header">
+            <h3>Centralized Knowledge Base</h3>
+            <span class="project-tag">Documentation</span>
+          </div>
+          <p>
+            A fully documented self-hosted knowledge management platform containing changelogs, system architecture layouts, network display filters, and step-by-step troubleshooting logs.
+          </p>
+          <ul class="tech-list">
+            <li>BookStack</li>
+            <li>Networking</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Systems & Networking</h3>
+          <ul>
+            <li>Linux (Debian, Mint)</li>
+            <li>Docker & Docker Compose</li>
+            <li>Proxmox VE & LXC</li>
+            <li>DNS & Public Server Hosting</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3>Development & Tools</h3>
+          <ul>
+            <li>HTML5 / CSS3</li>
+            <li>Python & Flask APIs</li>
+            <li>Git & Version Control</li>
+            <li>Single-Board Computers</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Feel free to reach out via or check out my profiles below.</p>
+      
+
+        <a href="https://github.com/aquaQS" target="_blank" rel="noopener" class="contact-item">
+          <strong>GitHub:</strong> github.com/aquaqs
+        </a>
+		<a href="https://www.linkedin.com/in/francisco-r-4488ba174/" target="_blank" rel="noopener" class="contact-item">
+		  <strong>Linkedin:</strong> linkedn.com
+		</a>
+		<a href="https://www.youtube.com/@AqUwUas" target="_blank" rel="noopener" class="contact-item">
+		  <strong>YouTube:</strong> youtube.com
+		</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 AquaAQS. Hand crafted with plain HTML & CSS.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
